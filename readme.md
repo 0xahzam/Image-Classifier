@@ -4,6 +4,10 @@ This is a self contained notebook using `openai/CLIP` to classify images from da
 
 For example, if `token = "a bike"` then all the images resembling the token, a bike, will be classified and grouped into a new folder in the parent directory named "a bike".
 
+## Prerequisite
+1. NumPy
+2. PyTorch
+
 ### Folder Structure before running the script:
 - Parent Directory
   - classify.ipynb
